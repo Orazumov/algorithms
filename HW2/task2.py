@@ -16,7 +16,7 @@ def count_numbers(num, even_num=0, odd_num=0):
         odd_num += 1
     return count_numbers(num // 10, even_num, odd_num)
 
-print(count_numbers(num, odd, even))
+print(count_numbers(num))
 
 # Вариант с циклом:
 
